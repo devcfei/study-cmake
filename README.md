@@ -14,3 +14,13 @@ cmake --build build
 cmake -S usellvm -B build -DUSE_LLVM=ON
 cmake --build build 
 ```
+
+## Cross Build
+
+define a toolchan.cmake(in cmake folder) to support cross build, see build.sh for details
+
+3 build arguments are defined
+
+- BUILD_TARGET_SYSTEM = Windows|  Linux |QNX
+- BUILD_TARGET_ARCH= x86| x86_64| armv7a| aarch64
+- BUILD_TOOL_CHAIN = msvc| gnu| qcc| clang
