@@ -7,3 +7,10 @@ Build on Linux and Windows with same command
 cmake -S hello -B build
 cmake --build build    
 ```
+
+## Use LLVM
+
+```bash
+cmake -S usellvm -B build -DUSE_LLVM=ON
+cmake --build build 
+```
