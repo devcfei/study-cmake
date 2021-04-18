@@ -1,5 +1,17 @@
 # Study CMake
 
+## Dependency
+
+```bash
+sudo apt install build-essential
+sudo apt install yasm
+sudo apt install cmake
+sudo apt install gcc-multilib g++-multilib
+sudo apt install gcc-arm-linux-gnueabi
+sudo apt install gcc-aarch64-linux-gnu
+sudo apt install clang
+```
+
 ## Get Start
 
 Build on Linux and Windows with same command
@@ -24,3 +36,4 @@ define a toolchan.cmake(in cmake folder) to support cross build, see build.sh fo
 - BUILD_TARGET_SYSTEM = Windows|  Linux |QNX
 - BUILD_TARGET_ARCH= x86| x86_64| armv7a| aarch64
 - BUILD_TOOL_CHAIN = msvc| gnu| qcc| clang
+
