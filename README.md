@@ -37,3 +37,9 @@ define a toolchan.cmake(in cmake folder) to support cross build, see build.sh fo
 - BUILD_TARGET_ARCH= x86| x86_64| armv7a| aarch64
 - BUILD_TOOL_CHAIN = msvc| gnu| qcc| clang
 
+## Use YASM
+
+```bash
+cmake -S yasm -B build
+cmake --build build 
+```
