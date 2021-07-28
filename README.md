@@ -43,3 +43,18 @@ define a toolchan.cmake(in cmake folder) to support cross build, see build.sh fo
 cmake -S yasm -B build
 cmake --build build 
 ```
+
+
+## Upgrade the CMake
+
+```bash
+sudo apt install libssl-dev
+wget https://cmake.org/files/v3.19/cmake-3.19.1.tar.gz
+tar -xvf cmake-3.19.1.tar.gz
+cd cmake-3.19.1/
+./configure
+make
+sudo make install
+sudo update-alternatives --install /usr/bin/cmake  cmake /usr/local/bin/cmake  1 --force
+cmake --version
+```
