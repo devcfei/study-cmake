@@ -1,0 +1,14 @@
+#ifndef _VERSION_H_
+#define _VERSION_H_
+
+
+#define VERSION_MAJOR   @VERSION_MAJOR@
+#define VERSION_MINOR   @VERSION_MINOR@
+#define VERSION_PATCH   @VERSION_PATCH@
+
+
+#define BUILD_VARIANT   @BUILD_VARIANT@
+
+
+
+#endif //_VERSION_H_
