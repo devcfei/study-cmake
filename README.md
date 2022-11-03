@@ -1,16 +1,7 @@
 # Study CMake
 
-## Get Start
+The project to study CMake
 
-Build on Linux and Windows with same command
-```bash
-cmake -S hello -B build
-cmake --build build    
-```
+## Samples
 
-## Use LLVM
-
-```bash
-cmake -S usellvm -B build -DUSE_LLVM=ON
-cmake --build build 
-```
+- [Hello World](hello) to start CMake study
